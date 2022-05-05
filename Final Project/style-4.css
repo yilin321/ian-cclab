@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+  }
+
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url(IMg/c9d7d02155dc507e2ca1c941a44eeb94.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+
+
+}
+
+header {
+    height: 300px;
+    width: 1024px;
+    padding-top: 80px;
+    padding-left: 240;
+    padding-right: 240;
+    text-align: center;
+   
+
+    
+    
+
+}
+
+nav{
+    height: 40px;
+
+}
+
+main{
+   
+    height: 300px;
+    width: 1024px;
+    text-align: center;
+    
+}
+
+
+
+footer{
+   
+    height: 100px;
+    text-align: center;
+    margin-bottom: auto;
+    
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+h1{
+    font-size: 35px;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+h2{
+    font-size: 24px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.zoom {
+    padding: 30px;
+    /* background-color: green; */
+    transition: transform .3s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(2.3);  
+  }
+

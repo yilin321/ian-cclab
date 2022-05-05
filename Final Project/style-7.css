@@ -1,0 +1,168 @@
+
+
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: white;
+    background-image: url(IMg/photo-1521208916306-71fce562015a.jpeg); 
+    background-size: cover;
+    background-blend-mode: multiply;
+    
+
+
+}
+header{
+    text-align: center;
+}
+
+
+
+
+main{
+    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240;
+    padding-right: 240;
+}
+
+section{
+    height: 170;
+}
+/* footer{
+background: rgba(255, 192, 203, 0.857);
+    height: 200px;
+    width: 1048px;
+    text-align: left;
+} */
+.main-footer{
+   /* background-color: rgba(0, 0, 0, 0.095); */
+    color: black;
+    padding: .75em;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+/* .footer-nav li{
+    padding: 0.7em;
+} */
+.footer-nav img{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 0.95em;
+
+}
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px; 
+}
+
+h1{
+    font-size: 40px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+p{
+    font-size: 18px;
+    color:#777;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:justify
+    
+
+}
+
+p2{
+    font-size: 18px;
+    color:#777;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center 
+}
+h2{
+    font-weight: bold;
+    font-size: 24;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+a{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer
+}
+.btn:hover{
+    background-color: (255, 255, 255,0.3);
+
+}
+.link-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+
+}
+.link-row:last-child{
+    border-bottom: none;
+}
+.link-item{
+    display: inline-block;
+    padding-right: 0.5em;
+
+}
+.link-un{
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+
+}
+.link-com{
+    width: 24%;
+
+}
+.link-pro{
+    width: 42%;
+}
+
+.link-btn{
+    max-width: 19%;
+}
+a{
+    color: black;
+}
+
+.btn-primary{
+    color: white;
+    background-color:rgba(0, 0, 0, 0.316);
+    border: none;
+    border-radius: 0.3em;
+    font-weight: bold;
+
+
+
+}
+.btn-primary:hover {
+    background-color: rgba(0, 0, 0, 0.158);
+}
+
+
+
+

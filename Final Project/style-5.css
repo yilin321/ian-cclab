@@ -1,0 +1,64 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.31);
+    background-image: url(IMG/milan-ivanovic-G0V1xY9S2UY-unsplash.jpg);
+    background-size:cover;
+     background-repeat: no-repeat; 
+    background-position:center;  
+
+
+}
+
+header {
+    height: 118px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+nav{
+    height: 40px;
+    
+}
+
+main{
+    height: 600px;
+    width: 500px;
+    text-align: left;
+    padding-top: 80px;
+    padding-left: 240;
+    padding-right: 240;
+}
+
+footer{
+   
+    height: 100px;
+    
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+h1{
+    font-size: 60px;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: solid;
+    
+}
+
+p{
+    font-size: 16px;
+    color:rgb(255, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
