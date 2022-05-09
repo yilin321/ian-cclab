@@ -8,16 +8,23 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
 
+#p5-canvas{
+    
+}
 
+.w{
+    text-align: right;
+    color: red;
 }
 
 header {
     height: 118px;
     margin-left: auto;
     margin-right: auto;
-
-}
+    text-align: right;
+} 
 
 
 
@@ -57,7 +64,10 @@ p{
 }
 
 a{
-    color: white;
+    color: red;
     font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
+    /* text-decoration: none; */
+}
+script{
+    text-align: right;
 }

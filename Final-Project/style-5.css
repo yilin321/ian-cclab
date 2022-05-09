@@ -2,6 +2,7 @@ html{
     height: 100%;
 }
 
+
 body{
     background-color: rgba(0, 0, 0, 0.31);
     background-image: url(IMG/milan-ivanovic-G0V1xY9S2UY-unsplash.jpg);
@@ -16,6 +17,7 @@ header {
     height: 118px;
     margin-left: auto;
     margin-right: auto;
+    text-align: right;
 
 }
 
@@ -34,8 +36,9 @@ main{
 }
 
 footer{
-   
-    height: 100px;
+   position: absolute;
+   top: 90%;
+    height: 10px;
     
 }
 
@@ -55,9 +58,14 @@ h1{
 
 p{
     font-size: 16px;
-    color:rgb(255, 0, 0);
+    color:white;
     font-family: 'Times New Roman', Times, serif;
 
+}
+a{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    /* text-decoration: none; */
 }
 
 

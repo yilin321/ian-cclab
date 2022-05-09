@@ -11,40 +11,55 @@ var ian2;
 var ian3;
 var ian4;
 function setup() {
+  let cnv=createCanvas(700, 700)
+  // cnv.parent = "canvasContainer1";
 
-let cnv= createCanvas(400,400);
-cnv.parent("canvasContainer1")
-
-
-  // createCanvas(windowWidth, windowHeight);
   background(100);
   imageMode(CENTER);
-  image(myMap, windowWidth / 2, windowHeight / 2);
+  image(myMap, 0, height/2);
   textSize(15);
   textAlign(CENTER);
   fill(20);
   // text("Ukrainians Displaced By The Russian Invasion", windowWidth / 2, 50);
   rectMode(CENTER);
-  ian1 = new ian(400, 290, 160, 160);
+  // ian1 = new ian(440, 310, 160, 160);
+  // ian1.text = "Russia: 549,805 Refugees";
+  // ian2 = new ian(270, 375, 45, 40);
+  // ian2.text = "Poland: 2,825,463 Refugees";
+  // ian3 = new ian(320, 365, 45, 30);
+  // ian3.text = "Belarus: 23,759 Refugees";
+  // ian4 = new ian(270, 410 ,40, 10);
+  // ian4.text = "Slovakia: 342,813 Refugees";
+  // ian5 = new ian(270, 430, 30, 10);
+  // ian5.text = "Hungary: 471,080 Refugees";
+  // ian6 = new ian(300, 440, 31, 31);
+  // ian6.text = "Romania: 394,555 Refugees";
+  // ian7 = new ian(330, 425, 10, 10);
+  // ian7.text = "Moldova: 426,964 Refugees";
+  // ian8 = new ian(340, 400, 65, 31);
+  // ian8.text = "Ukraine: 7,100,000 Refugees";
+
+  ian1 = new ian(width/1.5, height/2.5, width / 3, height/3);
   ian1.text = "Russia: 549,805 Refugees";
-  ian2 = new ian(240, 380, 45, 40);
+  ian2 = new ian(width/2.6, height/1.7, width/15, height/22);
   ian2.text = "Poland: 2,825,463 Refugees";
-  ian3 = new ian(290, 365, 45, 30);
+  ian3 = new ian(width/2.2, height/1.8, width/15, height/22);
   ian3.text = "Belarus: 23,759 Refugees";
-  ian4 = new ian(240, 415, 40, 10);
+  ian4 = new ian(width/2.6, height/1.6, width/15, height/50);
   ian4.text = "Slovakia: 342,813 Refugees";
-  ian5 = new ian(235, 430, 30, 10);
+  ian5 = new ian(width/2.6, height/1.53, width/15, height/50);
   ian5.text = "Hungary: 471,080 Refugees";
-  ian6 = new ian(267, 440, 31, 31);
+  ian6 = new ian(width/2.4, height/1.47, width/15, height/22);
   ian6.text = "Romania: 394,555 Refugees";
-  ian7 = new ian(287, 420, 10, 10);
+  ian7 = new ian(width/2.15, height/1.52, width/50, height/50);
   ian7.text = "Moldova: 426,964 Refugees";
-  ian8 = new ian(300, 400, 65, 31);
+  ian8 = new ian(width/2, height/1.62, width/9, height/30);
   ian8.text = "Ukraine: 7,100,000 Refugees";
+
 }
 function draw() {
   background(255);
-  image(myMap, windowWidth / 2, windowHeight / 2);
+  image(myMap, width / 2, height / 2);
   ian1.show();
   ian2.show();
   ian3.show();
@@ -80,7 +95,7 @@ class ian {
   show() {
     noFill();
     rect(this.posx, this.posy, this.width, this.height);
-    fill("black");
+    fill("red");
     if (this.isClicked == true) {
       textContent = this.text;
     }

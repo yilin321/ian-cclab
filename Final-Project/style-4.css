@@ -28,6 +28,11 @@ header {
     
 
 }
+section{
+    height: 10px;
+    width: 1200px;
+    text-align: right;
+}
 
 nav{
     height: 40px;
@@ -80,9 +85,9 @@ p{
 }
 
 a{
-    color: white;
+    color: red;
     font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 .zoom {
