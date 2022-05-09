@@ -37,3 +37,8 @@ h2{
     color:aliceblue;
     font-family: 'Times New Roman', Times, serif;
 }
+a{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    /* text-decoration: none; */
+}
